@@ -6,33 +6,24 @@ public class Method extends Member{
 	
 	public static void main(String[] args)
 	{
-		Member mb=new Member();
-		Manager m = new Manager();
 		Employee e = new Employee();
 		
-		Member ref;
-		ref=mb;
-		//ref.details();
-		//ref.printsalary();
-		Manager ref1 ;{
-		ref.details();
-		
-		ref1=m;
-		ref1.details();
-		 ref.printdetails();
-			ref1.printdetails()
-;	  	}
+		e.details1();
+		e.details3();
+		System.out.println("---------------------------------------");
 	
-		Employee ref2 ;{
-		ref.details();
+		Manager m= new Manager();
+		m.details1();
+		m.details2();
 		
-		ref2=e;
-		ref2.details();
-		ref.printdetails();
-		   ref2.printdetails();
-		}
+		System.out.println("---------------------------------------");
+		e.printdetails1();
+		e.printdetails3();
 		
-		   
+		System.out.println("---------------------------------------");
+		m.printdetails1();
+		m.printdetails2();
+			   
 	}
 
 }
